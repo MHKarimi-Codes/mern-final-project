@@ -1,0 +1,27 @@
+/* Reset & box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/cover.png'); /* Update with your correct path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+}
+
+/* Main layout: vertical stacking */
+.main-layout {
+  display: flex;
+  flex-direction: column;  /* Stack children vertically */
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto; /* Allow vertical scroll if needed */
+}

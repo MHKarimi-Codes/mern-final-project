@@ -1,0 +1,89 @@
+/* Appointment container */
+.appointment-page {
+  max-width: 600px;
+  margin: 60px auto;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.6); /* Match home-content */
+  color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Form layout */
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Input fields */
+.appointment-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Main button */
+.appointment-form button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #ffb347; /* Match CTA button color */
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+  background-color: #ff9933;
+}
+
+/* Appointment list */
+.appointment-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each appointment item */
+.appointment-list li {
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Action buttons */
+.appointment-list button {
+  margin-left: 10px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-list button:hover {
+  background-color: #dc2626;
+}
+
+/* Edit button style */
+.appointment-list button:first-of-type {
+  background-color: #f59e0b;
+}
+
+.appointment-list button:first-of-type:hover {
+  background-color: #d97706;
+}
+
+.appointment-page h3{
+  margin-top: 50px;
+}
